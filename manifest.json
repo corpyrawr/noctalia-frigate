@@ -5,6 +5,7 @@
   "minNoctaliaVersion": "4.6.6",
   "author": "noctalia-frigate",
   "license": "MIT",
+  "repository": "https://github.com/corpyrawr/noctalia-frigate",
   "description": "Bar widget that opens a panel of Frigate camera streams.",
   "entryPoints": {
     "barWidget": "BarWidget.qml",

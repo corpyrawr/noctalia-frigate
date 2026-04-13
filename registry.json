@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "noctalia-frigate",
+      "name": "Frigate Cameras",
+      "version": "1.0.7",
+      "official": false,
+      "author": "noctalia-frigate",
+      "description": "Bar widget that opens a panel of Frigate camera streams.",
+      "repository": "https://github.com/corpyrawr/noctalia-frigate",
+      "minNoctaliaVersion": "4.6.6",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Panel",
+        "Network",
+        "Utility"
+      ],
+      "lastUpdated": "2026-04-13T12:00:00Z"
+    }
+  ]
+}
