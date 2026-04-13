@@ -1,0 +1,12 @@
+{
+  "frigateBaseUrl": "http://192.168.0.47:5000",
+  "useMjpeg": true,
+  "snapshotIntervalMs": 750,
+  "httpAuthToken": "",
+  "gridColumns": 2,
+  "cameraBlacklistEnabled": true,
+  "hiddenCameras": [
+    "garage",
+    "backyard"
+  ]
+}

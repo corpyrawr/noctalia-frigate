@@ -1,0 +1,66 @@
+{
+  "bar": {
+    "tooltip": "Open Frigate camera panel"
+  },
+  "menu": {
+    "dashboard": "Open Frigate dashboard",
+    "settings": "Plugin settings"
+  },
+  "panel": {
+    "title": "Frigate cameras",
+    "empty": "No cameras found. Check Frigate and your URL.",
+    "error": {
+      "noUrl": "Set your Frigate base URL in plugin settings.",
+      "fetch": "Could not load cameras from Frigate"
+    },
+    "mjpeg": {
+      "fallback": "MJPEG failed for a camera; using snapshots instead."
+    },
+    "allHiddenByBlacklist": "Every camera is listed in your hidden list. Clear or disable the blacklist in plugin settings.",
+    "expand": {
+      "mjpegFallback": "Using snapshots for enlarged view."
+    },
+    "dashboard": {
+      "tooltip": "Open Frigate web UI",
+      "noUrl": "Set your Frigate base URL in plugin settings first."
+    },
+    "stats": {
+      "cpu": "CPU",
+      "gpu": "GPU",
+      "noGpu": "—"
+    }
+  },
+  "settings": {
+    "baseUrl": {
+      "label": "Frigate base URL",
+      "desc": "Example: http://127.0.0.1:5000 (no trailing slash)."
+    },
+    "useMjpeg": {
+      "label": "Use MJPEG streams",
+      "desc": "Smoother live video when Frigate serves MJPEG without a token on the stream URL. If you set an API token, only snapshots are used."
+    },
+    "snapshotInterval": {
+      "label": "Snapshot refresh (ms)",
+      "desc": "How often to reload latest.jpg per camera (minimum 200 ms)."
+    },
+    "token": {
+      "label": "API token (optional)",
+      "desc": "Bearer token for Frigate if authentication is enabled. Snapshots use this header; MJPEG cannot and will use snapshots only."
+    },
+    "gridColumns": {
+      "label": "Grid columns",
+      "desc": "Number of columns in the panel (1–4)."
+    },
+    "cameraBlacklist": {
+      "enabled": {
+        "label": "Hide cameras in the blacklist",
+        "desc": "When on, camera names below are not shown in the panel. Matching is case-insensitive."
+      },
+      "names": {
+        "label": "Hidden camera names",
+        "desc": "Comma- or newline-separated Frigate camera names (same names as in Frigate config)."
+      }
+    },
+    "saved": "Settings saved."
+  }
+}

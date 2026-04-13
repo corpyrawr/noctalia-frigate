@@ -1,0 +1,28 @@
+{
+  "id": "noctalia-frigate",
+  "name": "Frigate Cameras",
+  "version": "1.0.7",
+  "minNoctaliaVersion": "4.6.6",
+  "author": "noctalia-frigate",
+  "license": "MIT",
+  "description": "Bar widget that opens a panel of Frigate camera streams.",
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "frigateBaseUrl": "http://127.0.0.1:5000",
+      "useMjpeg": false,
+      "snapshotIntervalMs": 750,
+      "httpAuthToken": "",
+      "gridColumns": 2,
+      "cameraBlacklistEnabled": true,
+      "hiddenCameras": []
+    }
+  }
+}
